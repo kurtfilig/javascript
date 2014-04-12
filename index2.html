@@ -1,10 +1,23 @@
 <!DOCTYPE html> 
 <head>
-	<script src="jquery.js">
-
+	<script src="jquery.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			console.log('working');
+	
+			$(document).on('click', 'button', function(e){
+      			console.log('button working');
+      		});
+    
+		});
+		
 	</script>
+
 </head>
 <body>
+<button>
+	login
+</button>
 
 </body>
 
